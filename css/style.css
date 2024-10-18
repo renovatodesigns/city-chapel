@@ -573,9 +573,7 @@ html{
 /* Medium devices (landscape tablets, 768px and up) */
 
 @media only screen and (min-width: 768px) {
-    html {
-        font-size: 18px;
-    }
+  
 
     .main {
         height: 50vh;
@@ -627,6 +625,9 @@ html{
     }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    html {
+        font-size: 18px;
+    }
     .main {
         height: 70vh;
     }
